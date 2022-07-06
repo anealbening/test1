@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project I am currently following the FullStackOpen 2022 React Course.
+
 ## Available Scripts
 
 In the project directory, you can run:
