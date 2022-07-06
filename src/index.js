@@ -9,6 +9,7 @@ const refresh = () => {
     ReactDOM.createRoot(document.getElementById('root')).render(<App counter={counter} />)
 }
 
+//setInterval() function used to refresh page in intervals so count increases
 setInterval(() => {
     refresh()
     counter += 1
