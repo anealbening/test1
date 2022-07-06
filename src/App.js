@@ -14,6 +14,9 @@ const App = () => {
       <button onClick={() => setCounter(counter + 1)}>
       plus
      </button>
+     <button onClick ={() => setCounter(0)}>
+       zero
+     </button>
     </div>
   )
 }
