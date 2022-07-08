@@ -18,10 +18,10 @@ const Button = (props) => {
 const App = () => {
   const [ counter, setCounter ] = useState(0)
 
-  const increaseByOne = () => setCounter(counter + 1)
-  const decreaseByOne = () => setCounter(counter - 1)
+  const increaseByOne = () => setCounter(counter + 1) //Increases counter value by 1
+  const decreaseByOne = () => setCounter(counter - 1) //Decreases counter value by 1
 
-  const setToZero = () => setCounter(0)
+  const setToZero = () => setCounter(0) //Sets counter value to zero
 
 
   return (
